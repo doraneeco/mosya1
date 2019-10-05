@@ -1,5 +1,5 @@
-
 header {
+    height: 180px;
     border-bottom: 2px solid red;
 }
 
@@ -7,12 +7,13 @@ header {
     font-size: 10px;
     font-weight: normal;
     background-color: lightgray;
+    padding-left: 20px;
 }
 
 .header-left {
     /* float: left; */
     /* background-color: gray; */
-    padding-left: 20px; 
+    /* padding-left: 20px;  */
     display: block;
 }
 
@@ -49,6 +50,13 @@ header {
 }
 
 .top-wrapper {
-    height: 200px;
-    background-image: url();
+    height: 500px;
 }
+
+.top-message {
+    background-image: url(IMG_0280.JPG);
+    background-size: covor;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
