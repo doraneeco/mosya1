@@ -195,21 +195,32 @@ header {
     /* float: left; */
     /* margin: 0 auto; */
     vertical-align: baseline;
-    max-width: 95%;
+    max-width: 980px;
+    text-align: center;
+    /* font-size: 12px; */
 }
 
 .gessha {
+    height: 300px;
     display: inline-block;
-    max-width: 30%;
+    width: 30%;
+    background-color: #fff;
+    margin: 10px;
 }
 
 .station {
+    height: 300px;
     display: inline-block;
-    max-width: 30%;
+    width: 30%;
+    background-color: #fff;
+    margin: 10px;
 }
 
 .Hour {
+    height: 300px;
     display: inline-block;
-    max-width: 30%;    
+    width: 30%;
+    background-color: #fff;
+    margin: 10px;    
 }
 
