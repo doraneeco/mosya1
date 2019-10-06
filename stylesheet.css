@@ -1,62 +1,215 @@
+.header-top {
+    background-color: #eee;
+    height: 20px;
+}
+
 header {
-    height: 180px;
+    /* max-width: 980px; */
+    height: 104px;
+    margin: 0 auto;
     border-bottom: 2px solid red;
 }
 
-.header-left h1 {
-    font-size: 10px;
+.header-top h1 {
+    width: 92%;
+    max-width: 980px;
+    font-size: 12px;
     font-weight: normal;
-    background-color: lightgray;
-    padding-left: 20px;
+    margin: 0 auto;
+    position: relative;
 }
 
-.header-left {
-    /* float: left; */
-    /* background-color: gray; */
-    /* padding-left: 20px;  */
-    display: block;
+.container {
+    max-width: 980px;
+    width: 92%;
+    margin: 0 auto;
 }
 
 .header-right {
-    display: inline-block;
     float: right;
+    padding: 10px 0
 }
 
 .header-logo {
-    padding: 10px 20px;
+    padding: 10px 0;
     float: left;
 }
 
 .header-tell {
-    font-size: 20px;
+    margin-left: 70px;
+    background: url(https://www.linguage-school.jp/wp-content/themes/linguage/img/lp/tel-mark.png) no-repeat 4px;
+    background-size: 35px 23px;
+    padding: 0 0 0 44px;
+    font-size: 30px;
     opacity: 0.8;
     /* float: right; */
     display: inline-block;
+    letter-spacing: 1.7px;
+    color: gray;
 }
 
 .header-right a {
     float: right;
     /* display: inline-block; */
-    border: 1px solid palevioletred;
-    background-color: palevioletred;
+    /* border: 1px solid #de264c; */
+    background: #de264c;
     color: white;
-    padding: 10px;
+    padding: 12px 10px;
     border-radius: 5px;
+    margin-top: 8px;
     margin-left: 20px;
+    box-shadow: 0 4px 0 rgba(188, 13, 53, 1);
+    text-decoration: none;
+}
+
+.header-right a:active {
+    position: relative;
+    top: 30px;
+    box-shadow: none;
 }
 
 .header-right p {
-    font-size: 10px;
+    margin-right: 200px;
+    line-height: 1.2;
+    font-size: 12px;
+    /* display: block; */
+    text-align:;
+    color: gray;
+    opacity: 0.8;
+}
+
+.header-right p2 {
+    line-height: 1.2;
+    font-size: 12px;
+    /* display: block; */
+    margin-left: 118px;
+    color: gray;
+    opacity: 0.8;
 }
 
 .top-wrapper {
-    height: 500px;
+    height: 450px;
+    background: url(https://www.linguage-school.jp/wp-content/themes/linguage/img/lp/bg-cover-pc.jpg) no-repeat center top;
+    background-size: covor;
+    /* background-repeat: no-repeat; */
+    padding: 40px 0 0;
+    /* position: relative; */
+    text-align: center;
+}
+
+.section1 {
+    margin: 0 auto;
+    position: relative;
+    /* text-align: center; */
+    max-width: 980px;
+    /* padding: 60px 200px  */
 }
 
 .top-message {
-    background-image: url(IMG_0280.JPG);
-    background-size: covor;
-    background-repeat: no-repeat;
+    display: inline-block;
+    position: absolute;
+    top: 7.6%;
+    left: 1%;
+    width: 65.3%;
+}
+
+.section1 p {
+    position: absolute;
+    top: 475px;
+    right: 0;
+    font-size: 14px;
+}
+
+@media screen and (min-width:768px){
+.nechan1-pc-only {
+    display: inline-block;
+    float: right;
+    position: relative;
+    width: 40%;
+    top: -2px;
+}
+}
+
+.nechan1-sp-only {
+    display: none;
+}
+
+.campaign {
+    margin: 60px 0;
     text-align: center;
+}
+
+.campaign a {
+    display: block;
+    /* float: left; */
+}
+
+.patsukin-pc-only {
+    margin-bottom: 40px;
+}
+
+.patsukin-sp-only {
+    display: none;
+}
+
+.campaign-bottan {
+    margin: 0 auto;
+    width: 580px;
+    margin-bottom: 80px;
+}
+
+.campaign-bottan a {
+    /* text-align: center; */
+    max-width: 100%;
+    background: orange;
+    padding: 28px 190px;
+    border: 2px solid orange;
+    box-shadow: 0 4px 0 rgba(188, 13, 53, 1);
+    text-decoration: none;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 100%;
+}
+
+.campaign-bottan a:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.message-wrapper {
+    margin: 0 auto;
+    max-width: 980px;
+    border: 0 auto;
+    height: 500px;
+    position: relative;
+    background-color: darkgrey;
+}
+
+.message-items {
+    /* background-color: gray; */
+    /* display: inline-block; */
+    /* float: left; */
+    /* margin: 0 auto; */
+    vertical-align: baseline;
+    max-width: 95%;
+}
+
+.gessha {
+    display: inline-block;
+    max-width: 30%;
+}
+
+.station {
+    display: inline-block;
+    max-width: 30%;
+}
+
+.Hour {
+    display: inline-block;
+    max-width: 30%;    
 }
 
