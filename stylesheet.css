@@ -191,7 +191,7 @@ header {
 
 .message-items {
     /* background-color: gray; */
-    /* display: inline-block; */
+    display: flex;
     /* float: left; */
     /* margin: 0 auto; */
     vertical-align: baseline;
@@ -203,24 +203,170 @@ header {
 .gessha {
     height: 300px;
     display: inline-block;
-    width: 30%;
+    width: 25%;
     background-color: #fff;
-    margin: 10px;
+    margin: 60px 10px 0 80px;
+    position: relative;
+}
+
+.gessha img {
+    padding: 10px 0;
+}
+
+.gessha h2 {
+    height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 65px;
+    left: 20%;
+}
+
+.gessha a {
+    position: absolute;
+    top: 58px;
+    left: 42%;
+    color: pink;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.gessha h3 {
+    width: 90%;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bolder;
+    /* color: ; */
+    top: 120px;
+    left: 10px;
+}
+
+.gessha h3 span {
+    color: palevioletred;
+    font-weight: bolder;
+}
+
+.gessha p span {
+    color: palevioletred;
+}
+
+.gessha p {
+    width: 90%;
+    position: absolute;
+    top: 200px;
+    left: 10px;
 }
 
 .station {
     height: 300px;
     display: inline-block;
-    width: 30%;
+    width: 25%;
     background-color: #fff;
-    margin: 10px;
+    margin: 60px 10px 0 10px;
 }
 
-.Hour {
+.station img {
+    padding: 10px 0;
+}
+
+.station h2 {
+    height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 120px;
+    left: 43%;
+}
+
+.station a {
+    position: absolute;
+    top: 115px;
+    left: 46%;
+    color: pink;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.station h3 {
+    width: 20%;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bolder;
+    /* color: ; */
+    top: 180px;
+    left: 355px;
+}
+
+.station p span {
+    color: palevioletred;
+}
+
+.station p {
+    width: 20%;
+    position: absolute;
+    top: 260px;
+    left: 355px;
+}
+
+.hour {
     height: 300px;
     display: inline-block;
-    width: 30%;
+    width: 25%;
     background-color: #fff;
-    margin: 10px;    
+    margin: 60px 10px;    
 }
 
+.hour img {
+    padding: 10px 0;
+}
+
+.hour h2 {
+    height: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 120px;
+    left: 65%;
+}
+
+.hour a {
+    position: absolute;
+    top: 115px;
+    left: 72%;
+    color: pink;
+    font-size: 42px;
+    font-weight: normal;
+}
+
+.hour h3 {
+    width: 20%;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bolder;
+    /* color: ; */
+    top: 180px;
+    left: 610px;
+}
+
+.hour h3 span {
+    color: palevioletred;
+}
+
+.hour p span {
+    color: palevioletred;
+}
+
+.hour p {
+    width: 20%;
+    position: absolute;
+    top: 260px;
+    left: 610px;
+}
+
+.hour p2 {
+    width: 20%;
+    position: absolute;
+    top: 320px;
+    left: 610px;
+    font-size: 11px;
+}
