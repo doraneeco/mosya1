@@ -68,17 +68,16 @@ header {
     box-shadow: none;
 }
 
-.header-right p {
+.youbi {
     margin-right: 200px;
     line-height: 1.2;
     font-size: 12px;
     /* display: block; */
-    text-align:;
     color: gray;
     opacity: 0.8;
 }
 
-.header-right p2 {
+.note {
     line-height: 1.2;
     font-size: 12px;
     /* display: block; */
@@ -90,10 +89,8 @@ header {
 .top-wrapper {
     height: 450px;
     background: url(https://www.linguage-school.jp/wp-content/themes/linguage/img/lp/bg-cover-pc.jpg) no-repeat center top;
-    background-size: covor;
-    /* background-repeat: no-repeat; */
+    background-size: cover;
     padding: 40px 0 0;
-    /* position: relative; */
     text-align: center;
 }
 
@@ -183,7 +180,6 @@ header {
 .message-wrapper {
     margin: 0 auto;
     max-width: 980px;
-    border: 0 auto;
     height: 500px;
     position: relative;
     background-color: darkgrey;
@@ -372,9 +368,14 @@ header {
 }
 
 .message-wrapper2 {
-    height: 800px;
+    height: 980px;
     margin-top: 80px;
-    text-align: center;
+}
+
+.message2 {
+    max-width: 634px;
+    margin: 0 auto;
+    height: 500px;
 }
 
 .muryou-box a {
@@ -382,11 +383,10 @@ header {
 }
 
 .campaign-content {
-    display: inlin-box;
-    border: 3px solid salmon;
-    width: 70%;
-    margin-left: 210px;
+    border: 3px solid #ff5089;
+    width: 100%;
     padding: 20px 0;
+    text-align: center;
 }
 
 .campaign-content h2 {
@@ -404,4 +404,82 @@ header {
 
 .campaign-content span {
     color: salmon;
+}
+
+.Self-indulgence {
+    height: 300px;
+    background-color: grey;
+    position: relative;
+}
+
+.Selfish-woman {
+    height: 200px;
+    /* width: 50px; */
+    background-image: url("bg-problem.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 100px;
+    left: 40%;
+    line-height: 100%;
+    width: 100%;
+}
+
+.kakei {
+    background-image: url(quotation-l.png),url(quotation-r.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.hiyou {
+    background-image: url(quotation-l.png),url(quotation-r.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    position: absolute;
+    top: 30px;
+    left: 520px;
+}
+
+.busy {
+    background-image: url(quotation-l.png),url(quotation-r.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.go {
+    background-image: url(quotation-l.png),url(quotation-r.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    position: absolute;
+    top: 120px;
+    left: 550px;
+}
+
+.english {
+    background-image: url(quotation-l.png),url(quotation-r.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    position: absolute;
+    top: 220px;
+    left: 40px;
+}
+
+.quality {
+    background-image: url(quotation-l.png),url(quotation-r.png);
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    position: absolute;
+    top: 200px;
+    left: 650px;
+}
+
+.no-problem {
+    margin-top: 60px;
+    height: 1200px;
+    text-align: center;
 }
