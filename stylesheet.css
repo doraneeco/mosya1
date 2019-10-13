@@ -380,3 +380,28 @@ header {
 .muryou-box a {
     vertical-align: 0%;
 }
+
+.campaign-content {
+    display: inlin-box;
+    border: 3px solid salmon;
+    width: 70%;
+    margin-left: 210px;
+    padding: 20px 0;
+}
+
+.campaign-content h2 {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campaign-content p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.campaign-content span {
+    color: salmon;
+}
