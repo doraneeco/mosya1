@@ -281,7 +281,7 @@ header {
 .station a {
     position: absolute;
     top: 115px;
-    left: 46%;
+    left: 45%;
     color: pink;
     font-size: 42px;
     font-weight: normal;
@@ -294,7 +294,7 @@ header {
     font-weight: bolder;
     /* color: ; */
     top: 180px;
-    left: 355px;
+    left: 370px;
 }
 
 .station p span {
@@ -305,7 +305,7 @@ header {
     width: 20%;
     position: absolute;
     top: 260px;
-    left: 355px;
+    left: 370px;
 }
 
 .hour {
@@ -345,7 +345,7 @@ header {
     font-weight: bolder;
     /* color: ; */
     top: 180px;
-    left: 610px;
+    left: 635px;
 }
 
 .hour h3 span {
@@ -360,13 +360,23 @@ header {
     width: 20%;
     position: absolute;
     top: 260px;
-    left: 610px;
+    left: 635px;
 }
 
 .hour p2 {
     width: 20%;
     position: absolute;
     top: 320px;
-    left: 610px;
+    left: 635px;
     font-size: 11px;
+}
+
+.message-wrapper2 {
+    height: 800px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.muryou-box a {
+    vertical-align: 0%;
 }
