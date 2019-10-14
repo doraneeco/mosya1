@@ -407,19 +407,22 @@ header {
 }
 
 .Self-indulgence {
-    height: 300px;
-    background-color: grey;
+    height: 380px;
+    background: repeating-linear-gradient(-45deg, #eee, #eee 2px, #fff 4px);
     position: relative;
+    /* margin: 0 auto; */
+    text-align: center;
+
 }
 
 .Selfish-woman {
-    height: 200px;
+    height: 320px;
     /* width: 50px; */
     background-image: url("bg-problem.png");
     background-repeat: no-repeat;
+    background-size: 190px 270px;
     position: absolute;
-    top: 100px;
-    left: 40%;
+    top: 110px;
     line-height: 100%;
     width: 100%;
 }
@@ -428,58 +431,174 @@ header {
     background-image: url(quotation-l.png),url(quotation-r.png);
     background-repeat: no-repeat;
     background-position: left top, right bottom;
+    background-size: 30px 30px;
     position: absolute;
-    top: 20px;
-    left: 100px;
+    top: -90px;
+    left: -215px;
+    padding: 10px 25px;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.kakei span {
+    font-size: 18px;
+    color: #ff5089; 
+    font-weight: bolder;
 }
 
 .hiyou {
     background-image: url(quotation-l.png),url(quotation-r.png);
     background-repeat: no-repeat;
     background-position: left top, right bottom;
+    background-size: 30px 30px;
     position: absolute;
-    top: 30px;
-    left: 520px;
+    top: -70px;
+    left: 80px;
+    padding: 10px 25px;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.hiyou span {
+    font-size: 18px;
+    color: #ff5089; 
+    font-weight: bolder;
 }
 
 .busy {
     background-image: url(quotation-l.png),url(quotation-r.png);
     background-repeat: no-repeat;
     background-position: left top, right bottom;
+    background-size: 30px 30px;
     position: absolute;
-    top: 120px;
-    left: 20px;
+    top: 30px;
+    left: -325px;
+    padding: 10px 25px;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.busy span {
+    font-size: 18px;
+    color: #ff5089; 
+    font-weight: bolder;
 }
 
 .go {
     background-image: url(quotation-l.png),url(quotation-r.png);
     background-repeat: no-repeat;
     background-position: left top, right bottom;
+    background-size: 30px 30px;
     position: absolute;
-    top: 120px;
-    left: 550px;
+    top: 20px;
+    left: 125px;
+    padding: 10px 25px;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.go span {
+    font-size: 18px;
+    color: #ff5089; 
+    font-weight: bolder;
 }
 
 .english {
     background-image: url(quotation-l.png),url(quotation-r.png);
     background-repeat: no-repeat;
     background-position: left top, right bottom;
+    background-size: 30px 30px;
     position: absolute;
-    top: 220px;
-    left: 40px;
+    top: 140px;
+    left: -225px;
+    padding: 10px 25px;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.english span {
+    font-size: 18px;
+    color: #ff5089; 
+    font-weight: bolder;
 }
 
 .quality {
     background-image: url(quotation-l.png),url(quotation-r.png);
     background-repeat: no-repeat;
     background-position: left top, right bottom;
+    background-size: 30px 30px;
     position: absolute;
-    top: 200px;
-    left: 650px;
+    top: 115px;
+    left: 180px;
+    padding: 10px 25px;
+    font-size: 13px;
+    line-height: 25px;
+    font-weight: bolder;
+}
+
+.quality span {
+    font-size: 18px;
+    color: #ff5089; 
+    font-weight: bolder;
 }
 
 .no-problem {
     margin-top: 60px;
-    height: 1200px;
+    height: 200px;
     text-align: center;
+}
+
+.no-problem-head h2 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.no-problem-head span {
+    color: #ff5089;
+    letter-spacing: 1px;
+}
+
+.no-problem-head p {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.three {
+    font-family: "游明朝", YuMincho,'Yu Mincho', Century, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    font-size: 68px;
+    color: #ff5089
+}
+
+.tsu {
+    font-size: 36px;
+    color:#ff5089
+}
+
+.reson1 {
+    height: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+}
+
+.reson1-head {
+    margin-top: 20px;
+    position: relative;
+}
+
+.reson1-head h2 {
+    padding-top: 50px;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.reson1-head span {
+    color:#ff5089;
 }
