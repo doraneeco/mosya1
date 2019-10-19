@@ -581,7 +581,7 @@ header {
 }
 
 .reson1 {
-    height: 1000px;
+    height: 1300px;
     width: 90%;
     margin: 0 auto;
     border-top: 1px solid gray;
@@ -834,4 +834,25 @@ header {
 
 .lesson-table td span {
     border-right: 0 solid#fff;
+}
+
+.reason2 {
+    height: 1500px;
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px solid gray;
+    position: relative;
+}
+
+
+.reson2-head {
+    margin-top: 30px;
+}
+
+.reson2-icon {
+    position: absolute;
+    top: -40px;
+    left: 400px;
+    padding: 0 20px;
+    background-color: #fff;
 }
