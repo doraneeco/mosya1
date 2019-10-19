@@ -658,13 +658,13 @@ header {
     font-size: 12px;
 }
 
-.reson1 {
-    height: 1000px;
+.reson1-main {
+    height: 500px;
 }
 
 .nyuukai {
-    width: 50%;
-    height: 500px;
+    width: 45%;
+    float: left;
 }
 
 .otoku {
@@ -675,7 +675,7 @@ header {
 
 .otoku-woman {
     position: absolute;
-    left: 60px;
+    left: 50px;
 }
 
 .otoku p {
@@ -696,4 +696,142 @@ header {
 
 .otoku-right {
     text-align: right;
+}
+
+.furikae {
+    width: 45%;
+    float: right;
+}
+
+.muda {
+    position: relative;
+    width: 100%;  
+    height: 220px;
+}
+
+.muda-woman {
+    position: absolute;
+    left: 20px;
+}
+
+.muda p {
+    font-family: "游明朝", YuMincho,'Yu Mincho', Century, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+    position: absolute;
+    top: 25px;
+    left: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.muda-center {
+    font-size: 20px;
+    text-align: center;
+}
+
+.muda-text {
+    font-size: 26px;
+    color: #ff5089;
+}
+
+.nyuukai-box {
+    border: 1px solid gray;
+    height: 250px;
+}
+
+.nyuukai-title {
+    text-align: center;
+    margin: 3px 3px 0 3px;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #fcebeb;
+}
+
+.nyuukai-title h4 {
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.nyuukai-title span {
+    color: #ff5089;
+}
+
+.nyuukai-text p {
+    padding: 20px 0;
+    margin: 0 32px;
+    border-top: 1px dotted gray; 
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.furikae-box {
+    border: 1px solid gray;
+    height: 250px;
+}
+
+.furikae-title {
+    text-align: center;
+    margin: 3px 3px 0 3px;
+    padding: 20px 0;
+    font-size: 20px;
+    background-color: #fcebeb;
+}
+
+.furikae-title h4 {
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.furikae-title span {
+    color: #ff5089;
+}
+
+.furikae-text p {
+    border-top: 1px dotted gray;
+    font-size: 13px;
+    margin: 0 32px;
+    padding: 20px 0; 
+    line-height: 20px;
+}
+
+.lesson-hiyou {
+    width: 54%;
+    margin: 0 auto;
+}
+
+.lesson-hiyou-box {
+    border: 1px solid gray;
+    height: 280px;
+}
+
+.lesson-hiyou-title {
+    text-align: center;
+    margin: 3px 3px 0 3px;
+    padding: 20px 0;
+    font-size: 28px;
+    background-color: #fcebeb;
+}
+
+.lesson-hiyou h4 {
+    line-height: 34px;
+    font-weight: bold;
+}
+
+.lesson-hiyou span {
+    color: #ff5089;
+}
+
+.lesson-table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.lesson-table td {
+        border-top: 1px dotted gray;
+        border-right: 1px dotted gray;
+        padding: 15px 0 0 0;
+        text-align: center;
+}
+
+.lesson-table td span {
+    border-right: 0 solid#fff;
 }
