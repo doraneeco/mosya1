@@ -1,3 +1,7 @@
+body {
+    min-width: 1200px;
+}
+
 .header-top {
     background-color: #eee;
     height: 20px;
@@ -380,6 +384,10 @@ header {
 
 .muryou-box a {
     vertical-align: 0%;
+}
+
+.muryou-img {
+    margin-top: -5px;
 }
 
 .campaign-content {
@@ -823,13 +831,18 @@ header {
 .lesson-table {
     margin: 0 auto;
     width: 80%;
+    padding: 16px 0;
 }
 
 .lesson-table td {
         border-top: 1px dotted gray;
-        border-right: 1px dotted gray;
-        padding: 15px 0 0 0;
+        /* border-right: 1px dotted gray; */
         text-align: center;
+        padding: 15px 0 0 0;
+}
+
+.lesson-table td:nth-child(1) {
+    border-right: 1px dotted gray;
 }
 
 .lesson-table td span {
@@ -864,13 +877,13 @@ header {
     font-weight: bold;
 }
 
-.left-cheer {
+.left-cheer2 {
     position: absolute;
     top: 70px;
-    left: 370px;
+    left: 340px;
 }
 
-.right-cheer {
+.right-cheer2 {
     position: absolute;
     top: 70px;
     left: 640px;
@@ -1067,4 +1080,59 @@ header {
 .night-text3 {
     position: absolute;
     top: 180px;
+}
+
+.kigaru {
+    height: 1500px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.flag-left {
+    position: absolute;
+    left: 200px;
+}
+
+.flag-right {
+    position: absolute;
+    left: 670px;
+}
+
+.left-cheer3 {
+    position: absolute;
+    top: -35px;
+    left: 340px
+}
+
+.right-cheer3 {
+    position: absolute;
+    top: -35px;
+    left: 630px
+}
+
+.kigaru-head h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.kigaru-head h4 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 60px;
+}
+
+.kigaru-head span {
+    color: #ff5089;
+}
+
+.kigaru-head p {
+    text-align: center;
+    margin: 40px 0;
+    line-height: 24px;
+}
+
+.resson-type {
+    margin: 0 auto;
 }
