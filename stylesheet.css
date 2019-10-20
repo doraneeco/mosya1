@@ -387,7 +387,8 @@ header {
 }
 
 .muryou-img {
-    margin-top: -5px;
+    position: relative;
+    top: 3px;
 }
 
 .campaign-content {
@@ -420,7 +421,11 @@ header {
     position: relative;
     /* margin: 0 auto; */
     text-align: center;
+}
 
+.Self-indulgence::after {
+    background: url(bg-filter.png) no-repeat center;
+    content: "";
 }
 
 .Selfish-woman {
@@ -588,34 +593,34 @@ header {
     color:#ff5089
 }
 
-.reson1 {
+.reason1 {
     height: 1300px;
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
     border-top: 1px solid gray;
     position: relative;
 }
 
-.reson1-head {
+.reason1-head {
     margin-top: 30px;
 }
 
-.reson1-icon {
+.reason1-icon {
     position: absolute;
     top: -40px;
-    left: 400px;
+    left: 500px;
     padding: 0 20px;
     background-color: #fff;
 }
 
-.reson1-head h2 {
+.reason1-head h2 {
     padding-top: 50px;
     font-size: 56px;
     font-weight: bold;
     text-align: center;
 }
 
-.reson1-head span {
+.reason1-head span {
     color:#ff5089;
 }
 
@@ -626,33 +631,33 @@ header {
 
 .check-icon {
     position: absolute;
-    top: 200px;
-    left: 140px;
+    top: 210px;
+    left: 250px;
 }
 
 .left-kakko {
     position: absolute;
     top: 240px;
-    left: 160px;
+    left: 270px;
 }
 
 .right-kakko {
     position: absolute;
     top: 240px;
-    left: 720px;
+    left: 840px;
 }
 
 .reasonable {
     position: absolute;
     top: 220px;
-    left: 550px;
+    left: 680px;
 }
 
 .check p {
     position: absolute;
-    top: 240px;
-    left: 200px;
-    font-size: 22px;
+    top: 250px;
+    left: 300px;
+    font-size: 28px;
     font-weight: bolder;
     line-height: 36px;
 }
@@ -666,7 +671,7 @@ header {
     font-size: 12px;
 }
 
-.reson1-main {
+.reason1-main {
     height: 500px;
 }
 
@@ -678,32 +683,34 @@ header {
 .otoku {
     position: relative;
     width: 100%;
-    height: 220px;
+    height: 240px;
 }
 
 .otoku-woman {
     position: absolute;
-    left: 50px;
+    left: 90px;
 }
 
 .otoku p {
     font-family: "游明朝", YuMincho,'Yu Mincho', Century, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
     position: absolute;
-    top: 30px;
-    left: 95px;
+    top: 25px;
+    left: 120px;
     font-size: 20px;
     font-weight: bold;
-    width: 120px;
+    width: 190px;
 }
 
 .otoku-left {
-    font-size: 26px;
+    font-size: 30px;
     color: #ff5089;
     letter-spacing: -2px;
+    line-height: 36px;
 }
 
 .otoku-right {
-    text-align: right;
+    font-size: 30px;
+    padding-left: 20px;
 }
 
 .furikae {
@@ -719,31 +726,39 @@ header {
 
 .muda-woman {
     position: absolute;
-    left: 20px;
+    left: -20px;
 }
 
 .muda p {
     font-family: "游明朝", YuMincho,'Yu Mincho', Century, YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
     position: absolute;
     top: 25px;
-    left: 200px;
+    left: 210px;
     font-size: 20px;
     font-weight: bold;
+    width: 250px;
 }
 
 .muda-center {
-    font-size: 20px;
-    text-align: center;
+    padding-left: 37px;
 }
 
 .muda-text {
-    font-size: 26px;
+    padding: 25px 60px 0 0;
+}
+
+.muda-text span {
+    font-size: 30px;
     color: #ff5089;
 }
 
 .nyuukai-box {
     border: 1px solid gray;
     height: 250px;
+    width: 45%;
+    position: absolute;
+    top: 635px;
+    left: 30px;
 }
 
 .nyuukai-title {
@@ -755,8 +770,9 @@ header {
 }
 
 .nyuukai-title h4 {
-    line-height: 30px;
+    line-height: 40px;
     font-weight: bold;
+    font-size: 34px;
 }
 
 .nyuukai-title span {
@@ -767,13 +783,17 @@ header {
     padding: 20px 0;
     margin: 0 32px;
     border-top: 1px dotted gray; 
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
 }
 
 .furikae-box {
     border: 1px solid gray;
     height: 250px;
+    position: absolute;
+    top: 635px;
+    right: 30px;
+    width: 45%;
 }
 
 .furikae-title {
@@ -785,8 +805,9 @@ header {
 }
 
 .furikae-title h4 {
-    line-height: 30px;
+    line-height: 40px;
     font-weight: bold;
+    font-size: 34px;
 }
 
 .furikae-title span {
@@ -803,7 +824,9 @@ header {
 
 .lesson-hiyou {
     width: 54%;
-    margin: 0 auto;
+    position: absolute;
+    top: 920px;
+    left: 260px;
 }
 
 .lesson-hiyou-box {
