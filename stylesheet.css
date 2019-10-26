@@ -1515,3 +1515,32 @@ header {
 .itsudemo-box-text span {
     color: #ff5089;
 }
+
+.wakuwaku-wrapper {
+    height: 300px;
+}
+
+.wakuwaku-wrapper {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.wakuwaku-wrapper h3 {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.wakuwaku-wrapper span {
+    color: #ff5089;
+}
+
+.wakuwaku-wrapper h4 {
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.wakuwaku-wrapper p {
+    font-size: 20px;
+    line-height: 26px;
+}
