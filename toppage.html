@@ -7,6 +7,13 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="js/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="js/slick.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script>
+      $('.slider').slick();
+    </script>
   </head>
   <body>
     <header>
@@ -302,5 +309,19 @@
         <h4>1年を通じて、イベント開催！</h4>
         <p>英会話リンゲージでは、一年を通して数多くのイベントを開催しているの<br>で、レッスン以外にも英語を話す喜びやスキルアップを実感していただけ<br>ます。もちろん、無料やワンコインで参加できるイベントから、豪華賞品<br>が当たる全校合同パーティーまで、どのイベントも充実の内容です。</p>
       </div>
-      <div class="slide" style="opacity: 1;width: 75000px;transform: translate3d(-2023px, 0px, 0px)">
+      <div id="event" class="slink-initialized slick-slider">
+        <div aria-live="polite" class="slick-list draggable" style="padding: 0px;">
+          <div class="slide" style="opacity: 1; width: 75000px; transform: translate3d(-2023px, 0px, 0px);" role="listbox">
+            <div class="slic-slide slic-cloned" date-slick-index="-1" area-hidden="true" tabindex="-1">
+              <img class="beikoku" src="img-event14.jpg" alt="米国文化体験">
+              <ul class="slider">
+                  <li><a href="#"><img src="img-event14.jpg" alt="image01"></a></li>
+                  <li><a href="#"><img src="img-event15.jpg" alt="image02"></a></li>
+                  <li><a href="#"><img src="img-event01.jpg" alt="image03"></a></li>
+                  <li><a href="#"><img src="img-event02.jpg" alt="image04"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
   </body>
