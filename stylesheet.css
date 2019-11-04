@@ -1554,7 +1554,7 @@ header {
 }
 
 .koushi-wrapper {
-    height: 800px;
+    height: 700px;
     margin: 0 auto;
     background-color: #f2f2f2;
     padding-top: 50px;
@@ -1861,4 +1861,34 @@ header {
 
 .slick-next {
     right: 40px;
+}
+
+.slick-dots {
+    /* display: none; */
+    height: 0;
+}
+
+footer {
+    height: 200px;
+    background-color: #f2f2f2;
+}
+
+.footer-icon {
+    height: 30px;
+}
+
+.footer-icon-list {
+    height: 100%;
+}
+
+.footer-icon-list li {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+.footer-icon-list a {
+    float: left;
+    height: 100%;
+    width: 10%;
 }
